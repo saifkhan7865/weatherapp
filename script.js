@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $.ajax({
 
-            url: `http://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${APIKey}&units=metric`,
+            url: `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${APIKey}&units=metric`,
 
         }).done(function(weatherdata) {
 
